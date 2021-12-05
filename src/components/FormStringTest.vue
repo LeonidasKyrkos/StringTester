@@ -30,7 +30,7 @@
         </label>
         <loader v-if="currentValue && !tested"></loader>
         <div
-            v-if="tested"
+            v-if="tested && currentValue.length"
             class="form-string-test__output"
             :class="{ success: output }"
         >
