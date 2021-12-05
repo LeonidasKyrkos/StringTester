@@ -3,7 +3,7 @@
  * @returns boolean
  */
 export const isPalindromic = (value: string): boolean => {
-    if (!value || value.length === 1) {
+    if (typeof value !== "string" || !value || value.length === 1) {
         return false;
     }
 
