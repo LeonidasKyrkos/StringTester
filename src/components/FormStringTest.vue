@@ -47,9 +47,6 @@ import { isPalindromic } from "@/methods/tests/palindrome";
 
 import Loader from "@/components/Loader.vue";
 
-// At the moment this only pretends to have an option to choose
-// alternative tests to run on your string but it would be simple
-// enough to add the behaviour if we wanted to
 export default defineComponent({
     name: "FormStringTest",
     components: { Loader },
